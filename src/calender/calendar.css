@@ -2,8 +2,8 @@
 
 .calendar {
   font-family: Arial, sans-serif;
-  background-color: black; /* Set the background color to black */
-  color: white; /* Set the text color to white */
+  background-color: black;
+  color: white;
   border-radius: 5px;
   width: 300px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -21,7 +21,7 @@
 
 .calendar-weekdays {
   display: flex;
-  background-color: #333; /* Dark gray background for weekdays */
+  background-color: #333;
   padding: 8px;
 }
 
@@ -49,9 +49,8 @@
 }
 
 .calendar-day.highlighted {
-  background-color: white; /* Set the background color for the highlighted date to white */
-  color: #007acc; /* Set the text color for the highlighted date to blue */
+  background-color: white;
+  color: #007acc;
   border-radius: 5px;
 }
 
-/* Add any additional styling or customizations as needed */
