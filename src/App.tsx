@@ -1,26 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import Calendar from './calender/calendar';
 import './App.css';
 
 function App() {
+  const someDate = new Date(2023, 8, 20); // September 20, 2023
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Calendar date={someDate} />
     </div>
   );
-}
+} 
 
 export default App;
